@@ -1,12 +1,14 @@
 # x2j
-XML to JSON converter
+##XML to JSON converter
 
 Does what is says on the tin.
 
-Usage:
+###Usage:
 Import the alchemy.x2j.js file into an HTML page using script tags:
-  <script src="js/alchemy.x2j.js"></script>
+
+		&lt;script src="js/alchemy.x2j.js"&gt;&lt;/script&gt;
   
 x2j lives in a namespace called alchemy. Assuming your XML data is stored in a 
 variable called xmlData, convert it to JSON and store in a new variable like so:
-  var jsonData = alchemy.x2j.convert( fileContents );
+
+ 		var jsonData = alchemy.x2j.convert( fileContents );
