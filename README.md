@@ -11,4 +11,4 @@ Import the alchemy.x2j.js file into an HTML page using script tags:
 x2j lives in a namespace called alchemy. Assuming your XML data is stored in a 
 variable called xmlData, convert it to JSON and store in a new variable like so:
 
- 		var jsonData = alchemy.x2j.convert( fileContents );
+ 		var jsonData = alchemy.x2j.convert( xmlData );
